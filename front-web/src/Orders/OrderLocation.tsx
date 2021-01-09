@@ -62,7 +62,7 @@ function OrderLocation({onChangeLocation}:Props) {
               </h3>
                 <div className="filter-container">
                 <AsyncSelect 
-                 placeholder="Digite o endenreço para entrega do pedido"
+                 placeholder="Digite o endereço para entrega do pedido"
                  className="filter"
                  loadOptions={loadOptions}
                  onChange={value => handleChangeSelect(value as Place)}
